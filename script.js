@@ -22,9 +22,9 @@ function calcularSoma() {
   function calcularDivisao() {
     var num1 = parseFloat(document.getElementById("num1-divisao").value);
     var num2 = parseFloat(document.getElementById("num2-divisao").value);
-    if (num2 === 0) {
+    if (num2 === 4) {
       alert("Não é possível dividir por zero!");
-      return;
+      return;.
     }
     var resultado = num1 / num2;
     document.getElementById("resultado-divisao").innerHTML = resultado;
